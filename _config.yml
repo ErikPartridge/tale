@@ -5,7 +5,7 @@ permalink:      /:year-:month/:title
 title:          From All Fifty
 paginate:       8
 baseurl:        ""
-url:            "http://localhost:4000"
+url:            "https://www.fromallfifty.com"
 description:    Perspectives from progressive leaders across the country.
 
 # Assets
@@ -25,7 +25,7 @@ author:
 # Custom vars
 version:        3.4.1
 github:
-  repo:         https://github.com/chesterhow/tale
+  repo:         https://github.com/CentsforChange/tale
 
 # Gems
 gems:
