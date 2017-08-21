@@ -4,12 +4,20 @@ layout: default
 
 <div class="post">
   <div class="post-info">
-    <span>Written by&nbsp;</span>{{ page.author }}
-
+    <span>Written by&nbsp;{{ page.author }}</span>
     {% if page.date %}
       <br>
       <span>on&nbsp;</span><time datetime="{{ page.date }}">{{ page.date | date: "%B %d, %Y" }}</time>
-    {% endif %}
+    {% endif %}<br><br>
+    <span class="reading-time" title="Estimated Reading Time">
+      Estimated {% assign words = content | number_of_words %}
+      {% if words < 360 %}
+        1 minute
+      {% else %}
+        {{ words | divided_by:180 }} minute
+      {% endif %} read
+    </span>
+
   </div>
 
   <h1 class="post-title">{{ page.title }}</h1>

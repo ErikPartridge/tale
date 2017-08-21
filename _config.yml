@@ -1,11 +1,12 @@
 # Permalinks
-permalink:      /:year-:month-:day/:title
+permalink:      /:year-:month/:title
 
 # Setup
-title:          Tale
-paginate:       5
+title:          From All Fifty
+paginate:       8
 baseurl:        ""
-url:            "https://chesterhow.github.io/tale"
+url:            "http://localhost:4000"
+description:    Perspectives from progressive leaders across the country.
 
 # Assets
 sass:
@@ -17,9 +18,9 @@ markdown:       kramdown
 
 # About
 author:
-  name:         Chester How
-  url:          http://chester.how
-  email:        chesterhow@gmail.com
+  name:         From All Fifty
+  url:          https://www.fromallfifty.com
+  email:        contact@fromallfifty.com
 
 # Custom vars
 version:        3.4.1

@@ -12,10 +12,10 @@ body {
 
 html {
   font-family: $baskerville;
-  font-size: 14px;
+  font-size: 16px;
 
   @media (min-width: 600px) {
-    font-size: 16px;
+    font-size: 18px;
   }
 }
 
@@ -62,4 +62,8 @@ img {
 
 td {
   vertical-align: top;
+}
+
+p {
+  line-height: 2!important;
 }
